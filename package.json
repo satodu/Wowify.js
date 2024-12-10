@@ -1,6 +1,6 @@
 {
   "name": "wowify",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A fun JavaScript library to create dynamic effects like confetti parties.",
   "main": "dist/wowify.cjs.js",
   "module": "dist/wowify.esm.js",
@@ -10,7 +10,7 @@
     "prepublishOnly": "npm run build"
   },
   "repository": {
-    "type": "git",
+    "type": "module",
     "url": "https://github.com/satodu/Wowify.js"
   },
   "keywords": [
