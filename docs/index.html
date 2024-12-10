@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wowify.js Demo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <button id="partyButton">🎉 Click for a Party! 🎉</button>
+    <div id="confetti-container"></div>
+
+    <script src="wowify.js"></script>
+    <script>
+        document.getElementById('partyButton').addEventListener('click', () => {
+            Wowify.startParty({
+                confettiDuration: 5000,
+                sound: 'https://www.soundjay.com/button/beep-07.wav',
+            });
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,6 @@
+# Excluir os arquivos e pastas desnecessários
+src/
+docs/
+*.log
+node_modules/
+*.config.js

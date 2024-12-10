@@ -1,0 +1,62 @@
+/* Estilo para o corpo */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #f0f0f0;
+}
+
+/* Estilo do botão */
+#partyButton {
+    padding: 20px 40px;
+    font-size: 24px;
+    color: #fff;
+    background: #007BFF;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    position: relative;
+    z-index: 10;
+    transition: background 0.3s ease, transform 0.2s ease;
+}
+
+#partyButton:hover {
+    background: #0056b3;
+    transform: scale(1.1);
+}
+
+/* Estilo para o contêiner de confetes */
+#confetti-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    pointer-events: none;
+}
+
+/* Estilo para os confetes */
+.confetti {
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    background-color: #ffdd57;
+    animation: fall linear infinite;
+}
+
+/* Animação de queda */
+@keyframes fall {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+    }
+    100% {
+        transform: translateY(100vh) rotate(360deg);
+        opacity: 0;
+    }
+}
