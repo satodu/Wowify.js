@@ -56,7 +56,7 @@ Here’s a quick example to get started:
 
 ## 🌐 Live Demo
 
-Check out the live demo: [Wowify.js Demo](https://your-username.github.io/wowify.js/)
+Check out the live demo: [Wowify.js Demo](https://satodu.github.io/Wowify.js/)
 
 ---
 
